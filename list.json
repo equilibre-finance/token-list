@@ -15,24 +15,24 @@
   "timestamp": "2022-10-04T00:00:00+00:00",
   "tokens": [
     {
-		  "chainId": 2222,
-		  "name": "USD Coin",
-		  "symbol": "USDC",
-		  "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
-		  "decimals": 6,
-		  "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
+      "chainId": 2222,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
       "tags": [
         "stablecoin"
       ]
-	  },
-	  {
-		  "chainId": 2222,
-		  "name": "Équilibre",
-		  "symbol": "EQ",
-		  "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
-		  "decimals": 18,
-		  "logoURI": "https://github.com/equilibre-finance.png"
-	  },
+    },
+    {
+      "chainId": 2222,
+      "name": "Équilibre",
+      "symbol": "EQ",
+      "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
+      "decimals": 18,
+      "logoURI": "https://github.com/equilibre-finance.png"
+    },
     {
       "chainId": 2222,
       "name": "Wrapped KAVA",
