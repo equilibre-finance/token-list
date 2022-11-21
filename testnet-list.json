@@ -51,11 +51,22 @@
       "tags": [
         "stablecoin"
       ]
+    },
+    {
+      "chainId": 2221,
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "address": "0x66Cd011aDfF20f2B4bA60cDd30099B5E09CcACd1",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/9576/small/BUSD.png?1568947766",
+      "tags": [
+        "stablecoin"
+      ]
     }
   ],
   "version": {
     "major": 2,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   }
 }
