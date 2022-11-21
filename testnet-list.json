@@ -40,11 +40,22 @@
       "address": "0xFa95D53e0B6e82b2137Faa70FD7E4a4DC70Da449",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9761/small/kava.png?1663638871"
-    }
+    },
+    {
+      "chainId": 2221,
+      "name": "Verified USD Coin",
+      "symbol": "USDC (Kava)",
+      "address": "0x43D8814FdFB9B8854422Df13F1c66e34E4fa91fD",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
+      "tags": [
+        "stablecoin"
+      ]
+    },
   ],
   "version": {
-    "major": 2,
-    "minor": 0,
+    "major": 1,
+    "minor": 1,
     "patch": 0
   }
 }
