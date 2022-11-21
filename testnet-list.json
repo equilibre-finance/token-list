@@ -18,7 +18,7 @@
       "chainId": 2221,
       "name": "USD Coin",
       "symbol": "USDC",
-      "address": "0x43D8814FdFB9B8854422Df13F1c66e34E4fa91fD",
+      "address": "0xB1771bF4090b2D1641795353A12D2F164556AECd",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
       "tags": [
@@ -43,7 +43,7 @@
     }
   ],
   "version": {
-    "major": 1,
+    "major": 2,
     "minor": 0,
     "patch": 0
   }
