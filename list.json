@@ -27,8 +27,8 @@
     },
     {
       "chainId": 2222,
-      "name": "Équilibre",
-      "symbol": "EQ",
+      "name": "Vara",
+      "symbol": "VARA",
       "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
       "decimals": 18,
       "logoURI": "https://github.com/equilibre-finance.png"
