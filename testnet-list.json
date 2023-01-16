@@ -29,7 +29,7 @@
       "chainId": 2221,
       "name": "Vara",
       "symbol": "VARA",
-      "address": "0x212e541f3cF13AC58fE504ce10c0db4AF1eC94ae",
+      "address": "0x389Aa61b7f086bF64FBD6d06b5e7b37B5f169484",
       "decimals": 18,
       "logoURI": "https://github.com/equilibre-finance.png"
     },
@@ -40,17 +40,6 @@
       "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9761/small/kava.png?1663638871"
-    },
-    {
-      "chainId": 2221,
-      "name": "Verified USD Coin",
-      "symbol": "USDC (Kava)",
-      "address": "0x43D8814FdFB9B8854422Df13F1c66e34E4fa91fD",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
-      "tags": [
-        "stablecoin"
-      ]
     },
     {
       "chainId": 2221,
