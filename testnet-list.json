@@ -51,11 +51,22 @@
       "tags": [
         "stablecoin"
       ]
+    },
+    {
+      "chainId": 2221,
+      "name": "DAI",
+      "symbol": "DAI",
+      "address": "0x8DF9AdCF8d19f3E6013D567a650755Cf28fBfa80",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/small/4943.png?1636636734",
+      "tags": [
+        "stablecoin"
+      ]
     }
   ],
   "version": {
     "major": 2,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   }
 }
