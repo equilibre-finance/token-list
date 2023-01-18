@@ -62,11 +62,22 @@
       "tags": [
         "stablecoin"
       ]
+    },
+    {
+      "chainId": 2221,
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "0xB1771bF4090b2D1641795353A12D2F164556AECd",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1668148663",
+      "tags": [
+        "stablecoin"
+      ]
     }
   ],
   "version": {
     "major": 2,
-    "minor": 2,
-    "patch": 1
+    "minor": 3,
+    "patch": 0
   }
 }
