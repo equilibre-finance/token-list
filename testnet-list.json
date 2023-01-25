@@ -39,7 +39,7 @@
       "symbol": "wKAVA",
       "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9761/small/kava.png?1663638871"
+      "logoURI": "https://drive.google.com/file/d/1hyHySe9YYz6N1RlJx-uYtSDWisjvjxlO/view"
     },
     {
       "chainId": 2221,
@@ -78,6 +78,6 @@
   "version": {
     "major": 2,
     "minor": 3,
-    "patch": 0
+    "patch": 1
   }
 }
