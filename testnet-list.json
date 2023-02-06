@@ -46,7 +46,7 @@
       "name": "Binance USD",
       "symbol": "BUSD",
       "address": "0x66Cd011aDfF20f2B4bA60cDd30099B5E09CcACd1",
-      "decimals": 6,
+      "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9576/small/BUSD.png?1568947766",
       "tags": [
         "stablecoin"
@@ -89,6 +89,6 @@
   "version": {
     "major": 2,
     "minor": 4,
-    "patch": 0
+    "patch": 1
   }
 }
