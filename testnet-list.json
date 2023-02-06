@@ -39,7 +39,7 @@
       "symbol": "wKAVA",
       "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
       "decimals": 18,
-      "logoURI": "https://ibb.co/G5rNRCc"
+      "logoURI": "https://i.imgur.com/oQHfzWV.png"
     },
     {
       "chainId": 2221,
@@ -89,6 +89,6 @@
   "version": {
     "major": 2,
     "minor": 4,
-    "patch": 2
+    "patch": 4
   }
 }
