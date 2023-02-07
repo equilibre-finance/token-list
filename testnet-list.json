@@ -29,7 +29,7 @@
       "chainId": 2221,
       "name": "Vara",
       "symbol": "VARA",
-      "address": "0xE2D3B480C319C9cc525f14fe0DaF7cDcA7bF0c48",
+      "address": "0x4e20537Fb1dE2663d64E9B23DEB0694393f09818",
       "decimals": 18,
       "logoURI": "https://github.com/equilibre-finance.png"
     },
@@ -89,6 +89,6 @@
   "version": {
     "major": 2,
     "minor": 4,
-    "patch": 1
+    "patch": 2
   }
 }
