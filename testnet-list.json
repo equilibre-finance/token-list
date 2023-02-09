@@ -75,12 +75,12 @@
       "address": "0x7be89557B43D2A7270437976D98d017B87b0E466",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png?1548822744",
-      "tags": ["stablecoin"]
+      "tags": ["volatilecoin"]
     }
   ],
   "version": {
     "major": 3,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   }
 }
