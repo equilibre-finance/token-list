@@ -1,15 +1,15 @@
 {
   "name": "Equilibre Token List",
   "logoURI": "https://github.com/equilibre-finance.png",
-  "keywords": [
-    "audited",
-    "verified",
-    "special tokens"
-  ],
+  "keywords": ["audited", "verified", "special tokens"],
   "tags": {
     "stablecoin": {
       "name": "Stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+    "volatilecoin": {
+      "name": "Volatilecoin",
+      "description": "Tokens that are NOT fixed to an external asset, e.g. the US dollar"
     }
   },
   "timestamp": "2022-10-04T00:00:00+00:00",
@@ -21,9 +21,7 @@
       "address": "0x43D8814FdFB9B8854422Df13F1c66e34E4fa91fD",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
-      "tags": [
-        "stablecoin"
-      ]
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 2221,
@@ -31,7 +29,8 @@
       "symbol": "VARA",
       "address": "0x4e20537Fb1dE2663d64E9B23DEB0694393f09818",
       "decimals": 18,
-      "logoURI": "https://github.com/equilibre-finance.png"
+      "logoURI": "https://github.com/equilibre-finance.png",
+      "tags": ["volatilecoin"]
     },
     {
       "chainId": 2221,
@@ -39,7 +38,8 @@
       "symbol": "wKAVA",
       "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
       "decimals": 18,
-      "logoURI": "https://i.imgur.com/oQHfzWV.png"
+      "logoURI": "https://i.imgur.com/oQHfzWV.png",
+      "tags": ["volatilecoin"]
     },
     {
       "chainId": 2221,
@@ -48,9 +48,7 @@
       "address": "0x66Cd011aDfF20f2B4bA60cDd30099B5E09CcACd1",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9576/small/BUSD.png?1568947766",
-      "tags": [
-        "stablecoin"
-      ]
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 2221,
@@ -59,9 +57,7 @@
       "address": "0x9403d62811FAF985fD4e23dcfb16a643A9239BFf",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/9956/small/4943.png?1636636734",
-      "tags": [
-        "stablecoin"
-      ]
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 2221,
@@ -70,9 +66,7 @@
       "address": "0xB1771bF4090b2D1641795353A12D2F164556AECd",
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1668148663",
-      "tags": [
-        "stablecoin"
-      ]
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 2221,
@@ -81,14 +75,12 @@
       "address": "0x7be89557B43D2A7270437976D98d017B87b0E466",
       "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png?1548822744",
-      "tags": [
-        "stablecoin"
-      ]
+      "tags": ["stablecoin"]
     }
   ],
   "version": {
-    "major": 2,
-    "minor": 4,
-    "patch": 2
+    "major": 3,
+    "minor": 0,
+    "patch": 0
   }
 }
