@@ -47,7 +47,7 @@
       "symbol": "BUSD",
       "address": "0x66Cd011aDfF20f2B4bA60cDd30099B5E09CcACd1",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9576/small/BUSD.png?1568947766",
+      "logoURI": "https://assets.coingecko.com/coins/images/9576/large/BUSD.png?1568947766",
       "tags": ["stablecoin"]
     },
     {
@@ -56,7 +56,7 @@
       "symbol": "DAI",
       "address": "0x9403d62811FAF985fD4e23dcfb16a643A9239BFf",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9956/small/4943.png?1636636734",
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/large/4943.png?1636636734",
       "tags": ["stablecoin"]
     },
     {
@@ -65,7 +65,7 @@
       "symbol": "USDT",
       "address": "0xB1771bF4090b2D1641795353A12D2F164556AECd",
       "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1668148663",
+      "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether.png?1668148663",
       "tags": ["stablecoin"]
     },
     {
@@ -74,13 +74,13 @@
       "symbol": "WBTC",
       "address": "0x7be89557B43D2A7270437976D98d017B87b0E466",
       "decimals": 8,
-      "logoURI": "https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png?1548822744",
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744",
       "tags": ["volatilecoin"]
     }
   ],
   "version": {
     "major": 3,
     "minor": 0,
-    "patch": 4
+    "patch": 5
   }
 }
