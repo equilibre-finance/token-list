@@ -27,7 +27,7 @@
       "chainId": 2221,
       "name": "Vara",
       "symbol": "VARA",
-      "address": "0x4e20537Fb1dE2663d64E9B23DEB0694393f09818",
+      "address": "0x38d7Dc5790c007D784C267f4a58561Caf0936C4e",
       "decimals": 18,
       "logoURI": "https://i.imgur.com/kVO6weI.png",
       "tags": ["volatilecoin"]
@@ -61,15 +61,6 @@
     },
     {
       "chainId": 2221,
-      "name": "Tether",
-      "symbol": "USDT",
-      "address": "0xB1771bF4090b2D1641795353A12D2F164556AECd",
-      "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether.png?1668148663",
-      "tags": ["stablecoin"]
-    },
-    {
-      "chainId": 2221,
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
       "address": "0x7be89557B43D2A7270437976D98d017B87b0E466",
@@ -79,8 +70,8 @@
     }
   ],
   "version": {
-    "major": 3,
+    "major": 4,
     "minor": 0,
-    "patch": 5
+    "patch": 0
   }
 }
