@@ -10,6 +10,10 @@
     "stablecoin": {
       "name": "Stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+    "volatilecoin": {
+      "name": "Volatilecoin",
+      "description": "Tokens that are NOT fixed to an external asset, e.g. the US dollar"
     }
   },
   "timestamp": "2022-10-04T00:00:00+00:00",
@@ -29,9 +33,12 @@
       "chainId": 2222,
       "name": "Vara",
       "symbol": "VARA",
-      "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
+      "address": "",
       "decimals": 18,
-      "logoURI": "https://github.com/equilibre-finance.png"
+      "logoURI": "https://i.imgur.com/kVO6weI.png",
+      "tags": [
+        "volatilecoin"
+      ]
     },
     {
       "chainId": 2222,
@@ -39,12 +46,85 @@
       "symbol": "wKAVA",
       "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/9761/small/kava.png?1663638871"
+      "logoURI": "https://i.imgur.com/oQHfzWV.png",
+      "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "DAI",
+      "symbol": "DAI",
+      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/9956/large/4943.png?1636636734",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
+      "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1548822744",
+      "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "Beefy.Finance",
+      "symbol": "BIFI",
+      "address": "0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/12704/large/token.png?1601876182",
+      "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "LiquidDriver",
+      "symbol": "LQDR",
+      "address": "0x6c2c113c8cA73dB67224EF4D8C8dFCeC61e52a9C",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15782/large/LQDR_Glowing_Icon.png?1631200053",
+      "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "MAI",
+      "symbol": "MAI",
+      "address": "0xb84Df10966a5D7e1ab46D9276F55d57bD336AFC7",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/15264/large/mimatic-red.png?1620281018",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "dForce USD",
+      "symbol": "USX",
+      "address": "0xDb0E1e86B01c4ad25241b1843E407Efc4D615248",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/dforce-network/documents/master/logos/Lending/Assets(256*256)PNG/USX.png",
+      "tags": ["stablecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "ACryptoS",
+      "symbol": "ACS",
+      "address": "0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13276/large/ACS_logo.png?1634800304",
+      "tags": ["volatilecoin"]
     }
   ],
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   }
 }
