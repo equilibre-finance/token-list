@@ -33,7 +33,7 @@
       "chainId": 2222,
       "name": "Vara",
       "symbol": "VARA",
-      "address": "0x6C2A54580666D69CF904a82D8180F198C03ece67",
+      "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
       "decimals": 18,
       "logoURI": "https://i.imgur.com/kVO6weI.png",
       "tags": [
@@ -124,7 +124,7 @@
   ],
   "version": {
     "major": 1,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   }
 }
