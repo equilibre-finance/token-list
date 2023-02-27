@@ -147,11 +147,20 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BOMB.png",
       "tags": ["volatilecoin"]
+    },
+    {
+      "chainId": 2222,
+      "name": "Guru Network",
+      "symbol": "swKAVA",
+      "address": "0x9d9682577CA889c882412056669bd936894663fd",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SWKAVA.png",
+      "tags": ["volatilecoin"]
     }
   ],
   "version": {
     "major": 1,
-    "minor": 3,
-    "patch": 1
+    "minor": 4,
+    "patch": 0
   }
 }
