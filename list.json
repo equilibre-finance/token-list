@@ -150,7 +150,7 @@
     },
     {
       "chainId": 2222,
-      "name": "Guru Network",
+      "name": "Lockless Staked-Wrapped KAVA",
       "symbol": "swKAVA",
       "address": "0x9d9682577CA889c882412056669bd936894663fd",
       "decimals": 18,
@@ -161,6 +161,6 @@
   "version": {
     "major": 1,
     "minor": 4,
-    "patch": 0
+    "patch": 1
   }
 }
