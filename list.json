@@ -194,11 +194,11 @@
     },
     {
       "chainId": 2222,
-      "name": "SHARP",
-      "symbol": "xSHARP",
+      "name": "SHRAP",
+      "symbol": "xSHRAP",
       "address": "0xE1E9dB9b4d51A8878f030094F7965edC5eEC7802",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/xSHARP.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/xSHRAP.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
     },
@@ -216,6 +216,6 @@
   "version": {
     "major": 1,
     "minor": 7,
-    "patch": 0
+    "patch": 1
   }
 }
