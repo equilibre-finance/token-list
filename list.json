@@ -214,16 +214,6 @@
     },
     {
       "chainId": 2222,
-      "name": "GMD",
-      "symbol": "GMD",
-      "address": "0x2935f359eD431be38961Ae90DF61Ba4882De9D42",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/GMD.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
       "name": "Axelar Wrapped ATOM",
       "symbol": "axlATOM",
       "address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
@@ -234,7 +224,7 @@
     }
   ],
   "version": {
-    "major": 2,
+    "major": 3,
     "minor": 0,
     "patch": 0
   }
