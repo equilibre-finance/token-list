@@ -217,7 +217,7 @@
       "name": "Axelar Wrapped ATOM",
       "symbol": "axlATOM",
       "address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
-      "decimals": 18,
+      "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlATOM.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
@@ -226,6 +226,6 @@
   "version": {
     "major": 3,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   }
 }
