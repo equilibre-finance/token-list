@@ -221,11 +221,21 @@
       "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlATOM.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
-    }
+    },
+    {      
+      "chainId": 2222,
+      "name": "YieldFarming Index",
+      "symbol": "YFX",
+      "address": "0x5E237e61469d1A5b85fA8fba63EB4D4498Ea8dEF",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/YFX.png",
+      "liquid_staked_address": "",
+      "tags": ["volatilecoin"]
+  }
   ],
   "version": {
     "major": 3,
-    "minor": 0,
-    "patch": 1
+    "minor": 1,
+    "patch": 0
   }
 }
