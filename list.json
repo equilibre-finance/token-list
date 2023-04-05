@@ -241,7 +241,7 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/GMD.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
-  }
+  },
   {
     "chainId": 2222,
     "name": "Wrapped Vara",
