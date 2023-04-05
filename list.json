@@ -242,10 +242,20 @@
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
   }
+  {
+    "chainId": 2222,
+    "name": "Wrapped Vara",
+    "symbol": "spVARA",
+    "address": "0x489e54EEc6C228A1457975Eb150A7EFb8350b5bE",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/spVARA.png",
+    "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+    "tags": ["stablecoin"]
+  }
   ],
   "version": {
     "major": 3,
-    "minor": 2,
+    "minor": 3,
     "patch": 0
   }
 }
