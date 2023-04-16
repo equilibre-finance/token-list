@@ -251,11 +251,21 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/spVARA.png",
     "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
     "tags": ["stablecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Toreus",
+    "symbol": "TORE",
+    "address": "0x443ab8d6ab303ce28f9031be91c19c6b92e59c8a",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TORE.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 3,
-    "minor": 3,
+    "minor": 4,
     "patch": 0
   }
 }
