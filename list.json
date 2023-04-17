@@ -261,11 +261,81 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TORE.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "ACryptoS Vara",
+    "symbol": "acsVARA",
+    "address": "0x53a5dD07127739e5038cE81eff24ec503A6CC479",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/acsVARA.png",
+    "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "QiDao",
+    "symbol": "QI",
+    "address": "0xbf1aeA8670D2528E08334083616dD9C5F3B087aE",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/QI.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Champion Finance",
+    "symbol": "CHAM",
+    "address": "0x0Fb3E4E84FB78C93E466a2117Be7bc8BC063E430",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/CHAM.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Lion",
+    "symbol": "LION",
+    "address": "0x990e157fC8a492c28F5B50022F000183131b9026",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LION.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Tiger",
+    "symbol": "TIGER",
+    "address": "0x471F79616569343e8e84a66F342B7B433b958154",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TIGER.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Bear",
+    "symbol": "BEAR",
+    "address": "0x38481Fdc1aF61E6E72E0Ff46F069315A59779C65",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BEAR.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Konk",
+    "symbol": "KONK",
+    "address": "0x13db70Ad2f2b7064EbD5B0CAA13Af445a77360f7",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/KONK.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 3,
-    "minor": 4,
+    "minor": 5,
     "patch": 0
   }
 }
