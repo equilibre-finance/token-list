@@ -286,7 +286,7 @@
     "chainId": 2222,
     "name": "QiDao",
     "symbol": "QI",
-    "address": "0xbf1aeA8670D2528E08334083616dD9C5F3B087aE",
+    "address": "0xC09c73F7B32573d178138E76C0e286BA21085c20",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/QI.png",
     "liquid_staked_address": "",
@@ -341,11 +341,21 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/KONK.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Champion Vara",
+    "symbol": "cpVARA",
+    "address": "0xFa4384b298084A0ef13F378853DEDbB33A857B31",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/cpVARA.png",
+    "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 3,
-    "minor": 6,
+    "minor": 7,
     "patch": 0
   }
 }
