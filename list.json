@@ -351,11 +351,21 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/cpVARA.png",
     "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
+    "liquid_staked_address": "",
+    "tags": ["stablecoin"]
   }
   ],
   "version": {
     "major": 3,
-    "minor": 7,
+    "minor": 8,
     "patch": 0
   }
 }
