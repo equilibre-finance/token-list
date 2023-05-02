@@ -361,11 +361,31 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
     "liquid_staked_address": "",
     "tags": ["stablecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "DEUS",
+    "symbol": "DEUS",
+    "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEUS.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "DEI",
+    "symbol": "DEI",
+    "address": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEI.png",
+    "liquid_staked_address": "",
+    "tags": ["stablecoin"]
   }
   ],
   "version": {
     "major": 3,
-    "minor": 8,
+    "minor": 9,
     "patch": 0
   }
 }
