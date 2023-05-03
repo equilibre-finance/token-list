@@ -381,11 +381,21 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEI.png",
     "liquid_staked_address": "",
     "tags": ["stablecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "DEXIOPROTOCOL",
+    "symbol": "DEXI",
+    "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
+    "decimals": 9,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEXI.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 3,
-    "minor": 9,
+    "minor": 10,
     "patch": 0
   }
 }
