@@ -374,16 +374,6 @@
   },
   {
     "chainId": 2222,
-    "name": "DEI",
-    "symbol": "DEI",
-    "address": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEI.png",
-    "liquid_staked_address": "",
-    "tags": ["stablecoin"]
-  },
-  {
-    "chainId": 2222,
     "name": "DEXIOPROTOCOL",
     "symbol": "DEXI",
     "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
@@ -391,11 +381,21 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEXI.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "DEI",
+    "symbol": "DEI",
+    "address": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEI.png",
+    "liquid_staked_address": "",
+    "tags": ["stablecoin"]
   }
   ],
   "version": {
     "major": 3,
     "minor": 10,
-    "patch": 0
+    "patch": 1
   }
 }
