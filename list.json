@@ -391,11 +391,41 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEI.png",
     "liquid_staked_address": "",
     "tags": ["stablecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Axelar Wrapped Ethereum",
+    "symbol": "axlWETH",
+    "address": "0xb829b68f57CC546dA7E5806A929e53bE32a4625D",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlWETH.png",
+    "liquid_staked_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Axelar Wrapped Bitcoin",
+    "symbol": "axlWBTC",
+    "address": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlWBTC.png",
+    "liquid_staked_address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Axelar USD Tether",
+    "symbol": "axlUSDT",
+    "address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlUSDT.png",
+    "liquid_staked_address": "",
+    "tags": ["stablecoin"]
   }
   ],
   "version": {
     "major": 3,
-    "minor": 10,
-    "patch": 2
+    "minor": 11,
+    "patch": 0
   }
 }
