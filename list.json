@@ -394,6 +394,16 @@
   },
   {
     "chainId": 2222,
+    "name": "Pinjam.Kava Ecosystem Token",
+    "symbol": "PINKAV",
+    "address": "0xE5274E38E91b615D8822e8512a29A16FF1B9C4Af",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/PINKAV.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
     "name": "Axelar USD Tether",
     "symbol": "axlUSDT",
     "address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
