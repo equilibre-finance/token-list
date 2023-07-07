@@ -194,13 +194,13 @@
     },
     {
       "chainId": 2222,
-      "name": "SoliMax",
-      "symbol": "SLM",
-      "address": "0x7ae97042a4a0eb4d1eb370c34bfec71042a056b7",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SLM.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
+      "name": "USD Tether",
+      "symbol": "USDt",
+      "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
+      "liquid_staked_address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 2222,
@@ -404,13 +404,13 @@
   },
   {
     "chainId": 2222,
-    "name": "USD Tether",
-    "symbol": "USDt",
-    "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
-    "liquid_staked_address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
-    "tags": ["stablecoin"]
+    "name": "SoliMax",
+    "symbol": "SLM",
+    "address": "0x7ae97042a4a0eb4d1eb370c34bfec71042a056b7",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SLM.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
   },
   {
     "chainId": 2222,
@@ -446,6 +446,6 @@
   "version": {
     "major": 3,
     "minor": 13,
-    "patch": 2
+    "patch": 3
   }
 }
