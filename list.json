@@ -414,6 +414,16 @@
   },
   {
     "chainId": 2222,
+    "name": "USD Tether",
+    "symbol": "USDt",
+    "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
+    "liquid_staked_address": "",
+    "tags": ["stablecoin"]
+  },
+  {
+    "chainId": 2222,
     "name": "Konk",
     "symbol": "KONK",
     "address": "0x13db70Ad2f2b7064EbD5B0CAA13Af445a77360f7",
@@ -435,7 +445,7 @@
   ],
   "version": {
     "major": 3,
-    "minor": 12,
+    "minor": 13,
     "patch": 0
   }
 }
