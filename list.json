@@ -20,6 +20,18 @@
   "tokens": [
     {
       "chainId": 2222,
+      "name": "Tether",
+      "symbol": "USDt",
+      "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+      "decimals": 6,
+      "logoURI": "https://github.com/equilibre-finance/token-images/blob/main/assets/USDt.png",
+      "liquid_staked_address": "",
+      "tags": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
       "name": "Multichain USD Coin",
       "symbol": "multiUSDC",
       "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
