@@ -24,7 +24,7 @@
       "symbol": "multiUSDC",
       "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDC.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mUSDC.png",
       "liquid_staked_address": "",
       "tags": [
         "stablecoin"
@@ -58,7 +58,7 @@
       "symbol": "multiDAI",
       "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DAI.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mDAI.png",
       "liquid_staked_address": "",
       "tags": ["stablecoin"]
     },
@@ -68,7 +68,7 @@
       "symbol": "multiETH",
       "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ETH.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mWETH.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
     },
@@ -78,7 +78,7 @@
       "symbol": "multiWBTC",
       "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/WBTC.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mWBTC.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
     },
@@ -244,26 +244,6 @@
   },
   {
     "chainId": 2222,
-    "name": "Old Toreus",
-    "symbol": "TORE",
-    "address": "0x443ab8d6ab303ce28f9031be91c19c6b92e59c8a",
-    "decimals": 18,
-    "logoURI": "",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Toreus",
-    "symbol": "TORE",
-    "address": "0x8549724fcC84ee9ee6c7A676F1Ba2Cc2f43AAF5B",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TORE.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
     "name": "ACryptoS Vara",
     "symbol": "acsVARA",
     "address": "0x53a5dD07127739e5038cE81eff24ec503A6CC479",
@@ -338,7 +318,7 @@
     "symbol": "multiUSDT",
     "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mUSDT.png",
     "liquid_staked_address": "",
     "tags": ["stablecoin"]
   },
@@ -421,31 +401,11 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/xSHRAP.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Konk",
-    "symbol": "KONK",
-    "address": "0x13db70Ad2f2b7064EbD5B0CAA13Af445a77360f7",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/KONK.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "DEI",
-    "symbol": "DEI",
-    "address": "0xde1e704dae0b4051e80dabb26ab6ad6c12262da0",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEI.png",
-    "liquid_staked_address": "",
-    "tags": ["stablecoin"]
   }
   ],
   "version": {
-    "major": 3,
-    "minor": 13,
-    "patch": 3
+    "major": 4,
+    "minor": 0,
+    "patch": 0
   }
 }
