@@ -401,11 +401,31 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/xSHRAP.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "SHRAPNEL",
+    "symbol": "SHRP",
+    "address": "0x308F66EBEE21861D304C8013Eb3A9a5fC78A8a6c",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SHRAP.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "ATOM",
+    "symbol": "ATOM",
+    "address": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ATOM.png",
+    "liquid_staked_address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 4,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   }
 }
