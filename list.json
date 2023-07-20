@@ -124,11 +124,11 @@
     },
     {
       "chainId": 2222,
-      "name": "ACryptoS",
-      "symbol": "ACS",
+      "name": "Multichain ACryptoS",
+      "symbol": "multiACS",
       "address": "0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ACS.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mACS.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
     },
@@ -421,11 +421,21 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ATOM.png",
     "liquid_staked_address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "ACryptoS",
+    "symbol": "ACS",
+    "address": "0x8888888888f004100C0353d657BE6300587A6CcD",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ACS.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 4,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   }
 }
