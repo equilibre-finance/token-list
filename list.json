@@ -94,11 +94,11 @@
     },
     {
       "chainId": 2222,
-      "name": "LiquidDriver",
-      "symbol": "LQDR",
+      "name": "Multichain LiquidDriver",
+      "symbol": "multiLQDR",
       "address": "0x6c2c113c8cA73dB67224EF4D8C8dFCeC61e52a9C",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LQDR.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mLQDR.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
     },
@@ -144,11 +144,11 @@
     },
     {
       "chainId": 2222,
-      "name": "Tarot",
-      "symbol": "TAROT",
+      "name": "Multichain Tarot",
+      "symbol": "multiTAROT",
       "address": "0x165DBb08de0476271714952C3C1F068693bd60D7",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TAROT.png",
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mTAROT.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin"]
     },
@@ -431,11 +431,31 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ACS.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "LiquidDriver",
+    "symbol": "LQDR",
+    "address": "0x332c72dd7E77070740F01d2d35851c461585D5d0",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LQDR.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "Tarot",
+    "symbol": "TAROT",
+    "address": "0x2E4c7bf66d0484E44FeA0eC273b85A00Af92B2e3",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TAROT.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 4,
-    "minor": 2,
+    "minor": 3,
     "patch": 0
   }
 }
