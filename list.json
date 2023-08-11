@@ -451,11 +451,31 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TAROT.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "GBYTE",
+    "symbol": "GBYTE",
+    "address": "0x0b93109d05Ef330acD2c75148891cc61D20C3EF1",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/GBYTE.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
+    "name": "LINE token",
+    "symbol": "LINE",
+    "address": "0x31f8d38df6514b6cc3C360ACE3a2EFA7496214f6",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LINE.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
   }
   ],
   "version": {
     "major": 4,
-    "minor": 3,
+    "minor": 4,
     "patch": 0
   }
 }
