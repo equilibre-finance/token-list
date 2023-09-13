@@ -44,6 +44,18 @@
     },
     {
       "chainId": 2222,
+      "name": "Bribed Vara",
+      "symbol": "bVARA",
+      "address": "0x9d8054aaf108A5B5fb9fE27F89F3Db11E82fc94F",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/bVARA.png",
+      "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+      "tags": [
+        "volatilecoin"
+      ]
+    },
+    {
+      "chainId": 2222,
       "name": "Wrapped KAVA",
       "symbol": "wKAVA",
       "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
