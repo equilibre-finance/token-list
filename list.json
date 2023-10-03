@@ -396,6 +396,16 @@
   },
   {
     "chainId": 2222,
+    "name": "TVestige",
+    "symbol": "TV",
+    "address": "0x02e47D464c3bB564964fce162e6c8F38eA744f5a",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TV.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
     "name": "SoliMax",
     "symbol": "SLM",
     "address": "0x7ae97042a4a0eb4d1eb370c34bfec71042a056b7",
@@ -467,7 +477,7 @@
   ],
   "version": {
     "major": 4,
-    "minor": 3,
+    "minor": 4,
     "patch": 0
   }
 }
