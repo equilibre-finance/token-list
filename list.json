@@ -406,6 +406,16 @@
   },
   {
     "chainId": 2222,
+    "name": "Umbra",
+    "symbol": "UMBRA",
+    "address": "0x947e6DD65aB38C1F0c844Ce6b768CDaD44E698B1",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/UMBRA.png",
+    "liquid_staked_address": "",
+    "tags": ["volatilecoin"]
+  },
+  {
+    "chainId": 2222,
     "name": "SoliMax",
     "symbol": "SLM",
     "address": "0x7ae97042a4a0eb4d1eb370c34bfec71042a056b7",
@@ -477,7 +487,7 @@
   ],
   "version": {
     "major": 4,
-    "minor": 5,
+    "minor": 6,
     "patch": 0
   }
 }
