@@ -173,7 +173,7 @@
       "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BOMB.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin", "taxed"],
-      "tax": 0
+      "tax": 1
     },
     {
       "chainId": 2222,
@@ -234,7 +234,7 @@
       "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/YFX.png",
       "liquid_staked_address": "",
       "tags": ["volatilecoin", "taxed"],
-      "tax": 0
+      "tax": 1
   },
   {
     "chainId": 2222,
@@ -285,7 +285,7 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/CHAM.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin", "taxed"],
-    "tax": 0
+    "tax": 1
   },
   {
     "chainId": 2222,
@@ -329,7 +329,7 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/cpVARA.png",
     "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
     "tags": ["volatilecoin", "taxed"],
-    "tax": 0
+    "tax": 1
   },
   {
     "chainId": 2222,
@@ -420,7 +420,7 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/UMBRA.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin", "taxed"],
-    "tax": 0
+    "tax": 4
   },
   {
     "chainId": 2222,
@@ -451,7 +451,7 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SHRAP.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin", "taxed"],
-    "tax": 0
+    "tax": 1
   },
   {
     "chainId": 2222,
