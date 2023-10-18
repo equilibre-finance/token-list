@@ -284,8 +284,7 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/CHAM.png",
     "liquid_staked_address": "",
-    "tags": ["volatilecoin", "taxed"],
-    "tax": 1
+    "tags": ["volatilecoin"]
   },
   {
     "chainId": 2222,
@@ -296,7 +295,7 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LION.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin", "taxed"],
-    "tax": 10
+    "tax": 5
   },
   {
     "chainId": 2222,
@@ -318,7 +317,7 @@
     "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BEAR.png",
     "liquid_staked_address": "",
     "tags": ["volatilecoin", "taxed"],
-    "tax": 10
+    "tax": 5
   },
   {
     "chainId": 2222,
