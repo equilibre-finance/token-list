@@ -79,7 +79,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mDAI.png",
             "liquid_staked_address": "",
-	    "price_control": "_get_price_from_defillama",
+	    "price_control": "chain_price_in_pairs",
             "tags": [
                 "stablecoin"
             ]
@@ -191,7 +191,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mTAROT.png",
             "liquid_staked_address": "",
-	    "price_control": "_get_price_from_defillama",
+	    "price_control": "chain_price_in_pairs",
             "tags": [
                 "volatilecoin"
             ]
@@ -230,7 +230,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BNB.png",
             "liquid_staked_address": "",
-            "price_control": "_get_price_from_defillama",
+            "price_control": "_get_price_from_dexscreener",
 
             "tags": [
                 "volatilecoin"
@@ -294,8 +294,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/GMD.png",
             "liquid_staked_address": "",
-            "price_control": "chain_price_in_pairs",
-            "price_control": "native_token",
+            "price_control": "chain_price_in_pairs",            
             "tags": [
                 "volatilecoin"
             ]
@@ -345,7 +344,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/CHAM.png",
             "liquid_staked_address": "",
-            "price_control": "_get_price_from_defillama",
+            "price_control": "chain_price_in_pairs",
             "tags": [
                 "volatilecoin"
             ]
@@ -386,7 +385,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BEAR.png",
             "liquid_staked_address": "",
-            "price_control": "_get_price_from_defillama",
+            "price_control": "chain_price_in_pairs",
             "tags": [
                 "volatilecoin",
                 "taxed"
