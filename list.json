@@ -79,6 +79,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mDAI.png",
             "liquid_staked_address": "",
+	    "price_control": "_get_price_from_defillama",
             "tags": [
                 "stablecoin"
             ]
@@ -190,6 +191,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mTAROT.png",
             "liquid_staked_address": "",
+	    "price_control": "_get_price_from_defillama",
             "tags": [
                 "volatilecoin"
             ]
@@ -228,7 +230,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BNB.png",
             "liquid_staked_address": "",
-            "price_control": "_get_price_from_dexscreener",
+            "price_control": "_get_price_from_defillama",
 
             "tags": [
                 "volatilecoin"
@@ -292,6 +294,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/GMD.png",
             "liquid_staked_address": "",
+            "price_control": "chain_price_in_pairs",
             "price_control": "native_token",
             "tags": [
                 "volatilecoin"
@@ -342,7 +345,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/CHAM.png",
             "liquid_staked_address": "",
-            "price_control": "_get_price_from_dexscreener",
+            "price_control": "_get_price_from_defillama",
             "tags": [
                 "volatilecoin"
             ]
@@ -383,7 +386,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BEAR.png",
             "liquid_staked_address": "",
-            "price_control": "_get_price_from_dexscreener",
+            "price_control": "_get_price_from_defillama",
             "tags": [
                 "volatilecoin",
                 "taxed"
@@ -425,7 +428,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEUS.png",
             "liquid_staked_address": "",
-            "price_control": "_get_price_from_dexscreener",
+            "price_control": "_get_price_from_defillama",
 "tags": [
                 "volatilecoin"
             ]
@@ -437,6 +440,7 @@
             "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
             "decimals": 9,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEXI.png",
+	    "price_control": "_get_price_from_defillama",
             "liquid_staked_address": "",
             "tags": [
                 "volatilecoin"
