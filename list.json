@@ -1,514 +1,636 @@
 {
-  "name": "Equilibre Token List",
-  "logoURI": "https://github.com/equilibre-finance.png",
-  "keywords": [
-    "audited",
-    "verified",
-    "special tokens"
-  ],
-  "tags": {
-    "stablecoin": {
-      "name": "Stablecoin",
-      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    "name": "Equilibre Token List",
+    "logoURI": "https://github.com/equilibre-finance.png",
+    "keywords": [
+        "audited",
+        "verified",
+        "special tokens"
+    ],
+    "tags": {
+        "stablecoin": {
+            "name": "Stablecoin",
+            "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+        },
+        "volatilecoin": {
+            "name": "Volatilecoin",
+            "description": "Tokens that are NOT fixed to an external asset, e.g. the US dollar"
+        },
+        "taxed": {
+            "name": "Taxed",
+            "description": "Tokens that have a tax on transfers"
+        }
     },
-    "volatilecoin": {
-      "name": "Volatilecoin",
-      "description": "Tokens that are NOT fixed to an external asset, e.g. the US dollar"
-    },
-    "taxed" : {
-      "name": "Taxed",
-      "description": "Tokens that have a tax on transfers"
+    "timestamp": "2022-10-04T00:00:00+00:00",
+    "tokens": [
+        {
+            "chainId": 2222,
+            "name": "Multichain USD Coin",
+            "symbol": "multiUSDC",
+            "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mUSDC.png",
+            "liquid_staked_address": "",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Vara",
+            "symbol": "VARA",
+            "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/VARA.png",
+            "liquid_staked_address": "",
+            "price_control": "_get_price_from_dexscreener",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Bribed Vara",
+            "symbol": "bVARA",
+            "address": "0x9d8054aaf108A5B5fb9fE27F89F3Db11E82fc94F",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/bVARA.png",
+            "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+	          "price_control": "use_liquid_staked_address",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Wrapped KAVA",
+            "symbol": "wKAVA",
+            "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/wKAVA.png",
+            "liquid_staked_address": "",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Multichain DAI",
+            "symbol": "multiDAI",
+            "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mDAI.png",
+            "liquid_staked_address": "",
+	          "price_control": "_get_price_from_dexscreener",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Multichain Ethereum",
+            "symbol": "multiETH",
+            "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mWETH.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Multichain Wrapped Bitcoin",
+            "symbol": "multiWBTC",
+            "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mWBTC.png",
+            "liquid_staked_address": "",
+            "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Beefy.Finance",
+            "symbol": "BIFI",
+            "address": "0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BIFI.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Multichain LiquidDriver",
+            "symbol": "multiLQDR",
+            "address": "0x6c2c113c8cA73dB67224EF4D8C8dFCeC61e52a9C",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mLQDR.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_pairs",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "MAI",
+            "symbol": "MAI",
+            "address": "0xb84Df10966a5D7e1ab46D9276F55d57bD336AFC7",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/MAI.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "dForce USD",
+            "symbol": "USX",
+            "address": "0xDb0E1e86B01c4ad25241b1843E407Efc4D615248",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USX.png",
+            "liquid_staked_address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",            
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Multichain ACryptoS",
+            "symbol": "multiACS",
+            "address": "0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mACS.png",
+            "liquid_staked_address": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+            "price_control": "chain_price_in_liquid_staked",            
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Mare Finance",
+            "symbol": "MARE",
+            "address": "0xd86C8d4279CCaFbec840c782BcC50D201f277419",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/MARE.png",
+            "liquid_staked_address": "",
+	          "price_control": "_get_price_from_defillama",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Multichain Tarot",
+            "symbol": "multiTAROT",
+            "address": "0x165DBb08de0476271714952C3C1F068693bd60D7",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mTAROT.png",
+            "liquid_staked_address": "",
+	          "price_control": "_get_price_from_dexscreener",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "BOMB",
+            "symbol": "fBOMB",
+            "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BOMB.png",
+            "liquid_staked_address": "",
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 1
+        },
+        {
+            "chainId": 2222,
+            "name": "Lockless Staked-Wrapped KAVA",
+            "symbol": "swKAVA",
+            "address": "0x9d9682577CA889c882412056669bd936894663fd",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SWKAVA.png",
+            "liquid_staked_address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Binance Coin",
+            "symbol": "BNB",
+            "address": "0xABd380327Fe66724FFDa91A87c772FB8D00bE488",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BNB.png",
+            "liquid_staked_address": "",   
+	          "price_control": "chain_price_in_stables_and_default_token",         
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Axelar USD Coin",
+            "symbol": "axlUSDC",
+            "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlUSDC.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_bluechips",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "USD Tether",
+            "symbol": "USDt",
+            "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
+            "liquid_staked_address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Axelar Wrapped ATOM",
+            "symbol": "axlATOM",
+            "address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlATOM.png",
+            "liquid_staked_address": "",
+	          "price_control": "_get_price_from_dexscreener",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "YieldFarming Index",
+            "symbol": "YFX",
+            "address": "0x5E237e61469d1A5b85fA8fba63EB4D4498Ea8dEF",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/YFX.png",
+            "liquid_staked_address": "",
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 1
+        },
+        {
+            "chainId": 2222,
+            "name": "GMD",
+            "symbol": "GMD",
+            "address": "0xEffaE8eB4cA7db99e954adc060B736Db78928467",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/GMD.png",
+            "liquid_staked_address": "0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d",
+            "price_control": "chain_price_in_stables_and_default_token",     
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Wrapped Vara",
+            "symbol": "spVARA",
+            "address": "0x489e54EEc6C228A1457975Eb150A7EFb8350b5bE",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/spVARA.png",
+            "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+            "price_control": "chain_price_in_liquid_staked",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "ACryptoS Vara",
+            "symbol": "acsVARA",
+            "address": "0x53a5dD07127739e5038cE81eff24ec503A6CC479",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/acsVARA.png",
+            "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+	          "price_control": "chain_price_in_liquid_staked",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "QiDao",
+            "symbol": "QI",
+            "address": "0xC09c73F7B32573d178138E76C0e286BA21085c20",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/QI.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_pairs",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Champion Finance",
+            "symbol": "CHAM",
+            "address": "0x0Fb3E4E84FB78C93E466a2117Be7bc8BC063E430",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/CHAM.png",
+            "liquid_staked_address": "",            
+            "price_control": "chain_price_in_stables_and_default_token", 
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Lion",
+            "symbol": "LION",
+            "address": "0x990e157fC8a492c28F5B50022F000183131b9026",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LION.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_pairs",
+            "preferred_pair": "0xc86c7c0efbd6a49b35e8714c5f59d99de09a225b", 
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 5
+        },
+        {
+            "chainId": 2222,
+            "name": "Tiger",
+            "symbol": "TIGER",
+            "address": "0x471F79616569343e8e84a66F342B7B433b958154",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TIGER.png",
+            "liquid_staked_address": "",
+	          "price_control": "_get_price_from_defillama",
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 10
+        },
+        {
+            "chainId": 2222,
+            "name": "Bear",
+            "symbol": "BEAR",
+            "address": "0x38481Fdc1aF61E6E72E0Ff46F069315A59779C65",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BEAR.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 5
+        },
+        {
+            "chainId": 2222,
+            "name": "Champion Vara",
+            "symbol": "cpVARA",
+            "address": "0xFa4384b298084A0ef13F378853DEDbB33A857B31",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/cpVARA.png",
+            "liquid_staked_address": "0xc86c7c0efbd6a49b35e8714c5f59d99de09a225b",
+            "price_control": "chain_price_in_liquid_staked",
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 1
+        },
+        {
+            "chainId": 2222,
+            "name": "Multichain Tether USD",
+            "symbol": "multiUSDT",
+            "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mUSDT.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "DEUS",
+            "symbol": "DEUS",
+            "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEUS.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",    
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "DEXIOPROTOCOL",
+            "symbol": "DEXI",
+            "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
+            "decimals": 9,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEXI.png",	    
+      	    "price_control": "chain_price_in_stable_and_tiger",         
+      	    "liquid_staked_address": "0x990e157fc8a492c28f5b50022f000183131b9026",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Axelar Wrapped Ethereum",
+            "symbol": "axlWETH",
+            "address": "0xb829b68f57CC546dA7E5806A929e53bE32a4625D",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlWETH.png",
+            "liquid_staked_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
+	          "price_control": "_get_price_from_dexscreener",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Axelar Wrapped Bitcoin",
+            "symbol": "axlWBTC",
+            "address": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlWBTC.png",
+            "liquid_staked_address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Pinjam.Kava Ecosystem Token",
+            "symbol": "PINKAV",
+            "address": "0xE5274E38E91b615D8822e8512a29A16FF1B9C4Af",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/PINKAV.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Axelar USD Tether",
+            "symbol": "axlUSDT",
+            "address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlUSDT.png",
+            "liquid_staked_address": "",
+            "tags": [
+                "stablecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "TVestige",
+            "symbol": "TV",
+            "address": "0x02e47D464c3bB564964fce162e6c8F38eA744f5a",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TV.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",            
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Umbra",
+            "symbol": "UMBRA",
+            "address": "0x947e6DD65aB38C1F0c844Ce6b768CDaD44E698B1",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/UMBRA.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 4
+        },
+        {
+            "chainId": 2222,
+            "name": "SoliMax",
+            "symbol": "SLM",
+            "address": "0x7ae97042a4a0eb4d1eb370c34bfec71042a056b7",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SLM.png",
+            "liquid_staked_address": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+            "price_control": "chain_price_in_liquid_staked",            
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "SHRAP",
+            "symbol": "xSHRAP",
+            "address": "0xE1E9dB9b4d51A8878f030094F7965edC5eEC7802",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/xSHRAP.png",
+            "liquid_staked_address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
+            "price_control": "chain_price_in_liquid_staked",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "SHRAPNEL",
+            "symbol": "SHRP",
+            "address": "0x308F66EBEE21861D304C8013Eb3A9a5fC78A8a6c",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SHRAP.png",
+            "liquid_staked_address": "",
+            "price_control": "_get_price_from_dexscreener",
+            "tags": [
+                "volatilecoin",
+                "taxed"
+            ],
+            "tax": 1
+        },
+        {
+            "chainId": 2222,
+            "name": "ATOM",
+            "symbol": "ATOM",
+            "address": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ATOM.png",
+            "liquid_staked_address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
+	          "price_control": "_get_price_from_dexscreener",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "ACryptoS",
+            "symbol": "ACS",
+            "address": "0x8888888888f004100C0353d657BE6300587A6CcD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ACS.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token", 
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "LiquidDriver",
+            "symbol": "LQDR",
+            "address": "0x332c72dd7E77070740F01d2d35851c461585D5d0",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LQDR.png",
+            "liquid_staked_address": "",
+            "tags": [
+                "volatilecoin"
+            ]
+        },
+        {
+            "chainId": 2222,
+            "name": "Tarot",
+            "symbol": "TAROT",
+            "address": "0x2E4c7bf66d0484E44FeA0eC273b85A00Af92B2e3",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TAROT.png",
+            "liquid_staked_address": "",
+	          "price_control": "chain_price_in_stables_and_default_token",
+            "tags": [
+                "volatilecoin"
+            ]
+        }
+    ],
+    "version": {
+        "major": 5,
+        "minor": 0,
+        "patch": 0
     }
-  },
-  "timestamp": "2022-10-04T00:00:00+00:00",
-  "tokens": [
-    {
-      "chainId": 2222,
-      "name": "Multichain USD Coin",
-      "symbol": "multiUSDC",
-      "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mUSDC.png",
-      "liquid_staked_address": "",
-      "tags": [
-        "stablecoin"
-      ]
-    },
-    {
-      "chainId": 2222,
-      "name": "Vara",
-      "symbol": "VARA",
-      "address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/VARA.png",
-      "liquid_staked_address": "",
-      "price_control": "chain_price_in_pairs",
-      "tags": [
-        "volatilecoin"
-      ]
-    },
-    {
-      "chainId": 2222,
-      "name": "Bribed Vara",
-      "symbol": "bVARA",
-      "address": "0x9d8054aaf108A5B5fb9fE27F89F3Db11E82fc94F",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/bVARA.png",
-      "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
-      "tags": [
-        "volatilecoin"
-      ]
-    },
-    {
-      "chainId": 2222,
-      "name": "Wrapped KAVA",
-      "symbol": "wKAVA",
-      "address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/wKAVA.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Multichain DAI",
-      "symbol": "multiDAI",
-      "address": "0x765277EebeCA2e31912C9946eAe1021199B39C61",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mDAI.png",
-      "liquid_staked_address": "",
-      "tags": ["stablecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Multichain Ethereum",
-      "symbol": "multiETH",
-      "address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mWETH.png",
-      "liquid_staked_address": "",
-      "price_control": "chain_price_in_bluechips",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Multichain Wrapped Bitcoin",
-      "symbol": "multiWBTC",
-      "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mWBTC.png",
-      "liquid_staked_address": "",
-      "price_control": "chain_price_in_pairs",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Beefy.Finance",
-      "symbol": "BIFI",
-      "address": "0xC19281F22A075E0F10351cd5D6Ea9f0AC63d4327",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BIFI.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Multichain LiquidDriver",
-      "symbol": "multiLQDR",
-      "address": "0x6c2c113c8cA73dB67224EF4D8C8dFCeC61e52a9C",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mLQDR.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "MAI",
-      "symbol": "MAI",
-      "address": "0xb84Df10966a5D7e1ab46D9276F55d57bD336AFC7",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/MAI.png",
-      "liquid_staked_address": "",
-      "tags": ["stablecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "dForce USD",
-      "symbol": "USX",
-      "address": "0xDb0E1e86B01c4ad25241b1843E407Efc4D615248",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USX.png",
-      "liquid_staked_address": "",
-      "tags": ["stablecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Multichain ACryptoS",
-      "symbol": "multiACS",
-      "address": "0x739ca6D71365a08f584c8FC4e1029045Fa8ABC4B",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mACS.png",
-      "liquid_staked_address": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
-      "price_control": "chain_price_in_liquid_staked",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Mare Finance",
-      "symbol": "MARE",
-      "address": "0xd86C8d4279CCaFbec840c782BcC50D201f277419",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/MARE.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Multichain Tarot",
-      "symbol": "multiTAROT",
-      "address": "0x165DBb08de0476271714952C3C1F068693bd60D7",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mTAROT.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "BOMB",
-      "symbol": "fBOMB",
-      "address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BOMB.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin", "taxed"],
-      "tax": 1
-    },
-    {
-      "chainId": 2222,
-      "name": "Lockless Staked-Wrapped KAVA",
-      "symbol": "swKAVA",
-      "address": "0x9d9682577CA889c882412056669bd936894663fd",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SWKAVA.png",
-      "liquid_staked_address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Binance Coin",
-      "symbol": "BNB",
-      "address": "0xABd380327Fe66724FFDa91A87c772FB8D00bE488",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BNB.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Axelar USD Coin",
-      "symbol": "axlUSDC",
-      "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlUSDC.png",
-      "liquid_staked_address": "",
-      "tags": ["stablecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "USD Tether",
-      "symbol": "USDt",
-      "address": "0x919C1c267BC06a7039e03fcc2eF738525769109c",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/USDT.png",
-      "liquid_staked_address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
-      "tags": ["stablecoin"]
-    },
-    {
-      "chainId": 2222,
-      "name": "Axelar Wrapped ATOM",
-      "symbol": "axlATOM",
-      "address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlATOM.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin"]
-    },
-    {      
-      "chainId": 2222,
-      "name": "YieldFarming Index",
-      "symbol": "YFX",
-      "address": "0x5E237e61469d1A5b85fA8fba63EB4D4498Ea8dEF",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/YFX.png",
-      "liquid_staked_address": "",
-      "tags": ["volatilecoin", "taxed"],
-      "tax": 1
-  },
-  {
-    "chainId": 2222,
-    "name": "GMD",
-    "symbol": "GMD",
-    "address": "0xEffaE8eB4cA7db99e954adc060B736Db78928467",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/GMD.png",
-    "liquid_staked_address": "",
-    "price_control": "chain_price_in_pairs",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Wrapped Vara",
-    "symbol": "spVARA",
-    "address": "0x489e54EEc6C228A1457975Eb150A7EFb8350b5bE",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/spVARA.png",
-    "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
-    "tags": ["stablecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "ACryptoS Vara",
-    "symbol": "acsVARA",
-    "address": "0x53a5dD07127739e5038cE81eff24ec503A6CC479",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/acsVARA.png",
-    "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "QiDao",
-    "symbol": "QI",
-    "address": "0xC09c73F7B32573d178138E76C0e286BA21085c20",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/QI.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Champion Finance",
-    "symbol": "CHAM",
-    "address": "0x0Fb3E4E84FB78C93E466a2117Be7bc8BC063E430",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/CHAM.png",
-    "liquid_staked_address": "",
-    "price_control": "chain_price_in_pairs",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Lion",
-    "symbol": "LION",
-    "address": "0x990e157fC8a492c28F5B50022F000183131b9026",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LION.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin", "taxed"],
-    "tax": 5
-  },
-  {
-    "chainId": 2222,
-    "name": "Tiger",
-    "symbol": "TIGER",
-    "address": "0x471F79616569343e8e84a66F342B7B433b958154",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TIGER.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin", "taxed"],
-    "tax": 10
-  },
-  {
-    "chainId": 2222,
-    "name": "Bear",
-    "symbol": "BEAR",
-    "address": "0x38481Fdc1aF61E6E72E0Ff46F069315A59779C65",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BEAR.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin", "taxed"],
-    "tax": 5
-  },
-  {
-    "chainId": 2222,
-    "name": "Champion Vara",
-    "symbol": "cpVARA",
-    "address": "0xFa4384b298084A0ef13F378853DEDbB33A857B31",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/cpVARA.png",
-    "liquid_staked_address": "0xc86c7c0efbd6a49b35e8714c5f59d99de09a225b",
-    "price_control": "chain_price_in_pairs",
-    "tags": ["volatilecoin", "taxed"],
-    "tax": 1
-  },
-  {
-    "chainId": 2222,
-    "name": "Multichain Tether USD",
-    "symbol": "multiUSDT",
-    "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mUSDT.png",
-    "liquid_staked_address": "",
-    "tags": ["stablecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "DEUS",
-    "symbol": "DEUS",
-    "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEUS.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "DEXIOPROTOCOL",
-    "symbol": "DEXI",
-    "address": "0xD22a58f79e9481D1a88e00c343885A588b34b68B",
-    "decimals": 9,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/DEXI.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Axelar Wrapped Ethereum",
-    "symbol": "axlWETH",
-    "address": "0xb829b68f57CC546dA7E5806A929e53bE32a4625D",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlWETH.png",
-    "liquid_staked_address": "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Axelar Wrapped Bitcoin",
-    "symbol": "axlWBTC",
-    "address": "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad",
-    "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlWBTC.png",
-    "liquid_staked_address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Pinjam.Kava Ecosystem Token",
-    "symbol": "PINKAV",
-    "address": "0xE5274E38E91b615D8822e8512a29A16FF1B9C4Af",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/PINKAV.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Axelar USD Tether",
-    "symbol": "axlUSDT",
-    "address": "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlUSDT.png",
-    "liquid_staked_address": "",
-    "tags": ["stablecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "TVestige",
-    "symbol": "TV",
-    "address": "0x02e47D464c3bB564964fce162e6c8F38eA744f5a",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TV.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Umbra",
-    "symbol": "UMBRA",
-    "address": "0x947e6DD65aB38C1F0c844Ce6b768CDaD44E698B1",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/UMBRA.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin", "taxed"],
-    "tax": 4
-  },
-  {
-    "chainId": 2222,
-    "name": "SoliMax",
-    "symbol": "SLM",
-    "address": "0x7ae97042a4a0eb4d1eb370c34bfec71042a056b7",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SLM.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "SHRAP",
-    "symbol": "xSHRAP",
-    "address": "0xE1E9dB9b4d51A8878f030094F7965edC5eEC7802",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/xSHRAP.png",
-    "liquid_staked_address": "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
-    "price_control": "chain_price_in_liquid_staked",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "SHRAPNEL",
-    "symbol": "SHRP",
-    "address": "0x308F66EBEE21861D304C8013Eb3A9a5fC78A8a6c",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SHRAP.png",
-    "liquid_staked_address": "0xb829b68f57cc546da7e5806a929e53be32a4625d",
-    "price_control": "chain_price_in_liquid_staked",
-    "tags": ["volatilecoin", "taxed"],
-    "tax": 1
-  },
-  {
-    "chainId": 2222,
-    "name": "ATOM",
-    "symbol": "ATOM",
-    "address": "0x15932E26f5BD4923d46a2b205191C4b5d5f43FE3",
-    "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ATOM.png",
-    "liquid_staked_address": "0x06beE9E7238a331B68D83Df3B5B9B16d5DBa83ff",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "ACryptoS",
-    "symbol": "ACS",
-    "address": "0x8888888888f004100C0353d657BE6300587A6CcD",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/ACS.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "LiquidDriver",
-    "symbol": "LQDR",
-    "address": "0x332c72dd7E77070740F01d2d35851c461585D5d0",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LQDR.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  },
-  {
-    "chainId": 2222,
-    "name": "Tarot",
-    "symbol": "TAROT",
-    "address": "0x2E4c7bf66d0484E44FeA0eC273b85A00Af92B2e3",
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TAROT.png",
-    "liquid_staked_address": "",
-    "tags": ["volatilecoin"]
-  }
-  ],
-  "version": {
-    "major": 5,
-    "minor": 0,
-    "patch": 0
-  }
 }
