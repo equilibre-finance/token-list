@@ -544,7 +544,7 @@
         "decimals": 18,
         "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/wETH.png",
         "liquid_staked_address": "",
-        "price_control": "chain_price_in_stables_and_default_token",
+        "price_control": "_get_price_from_dexscreener",
         "tags": [
             "volatilecoin"
         ]
@@ -645,6 +645,6 @@
   "version": {
       "major": 5,
       "minor": 1,
-      "patch": 2
+      "patch": 3
   }
 }
