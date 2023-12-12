@@ -306,6 +306,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/spVARA.png",
             "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+            "price_control": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
             "tags": [
                 "stablecoin"
             ]
@@ -616,6 +617,6 @@
     "version": {
         "major": 6,
         "minor": 0,
-        "patch": 4
+        "patch": 5
     }
 }
