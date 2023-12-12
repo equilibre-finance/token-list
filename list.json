@@ -30,7 +30,7 @@
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/mUSDC.png",
             "liquid_staked_address": "",
-            "price_control": true,
+            "stable_route": true,
             "tags": [
                 "stablecoin"
             ]
@@ -43,7 +43,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/VARA.png",
             "liquid_staked_address": "",
-            "price_control": true,
+            "stable_route": true,
             "tags": [
                 "volatilecoin"
             ]
@@ -56,6 +56,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/bVARA.png",
             "liquid_staked_address": "",
+            "price_control": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
             "tags": [
                 "volatilecoin"
             ]
@@ -68,7 +69,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/wKAVA.png",
             "liquid_staked_address": "",
-            "price_control": true,
+            "stable_route": true,
             "tags": [
                 "volatilecoin"
             ]
@@ -140,7 +141,8 @@
             "address": "0xb84Df10966a5D7e1ab46D9276F55d57bD336AFC7",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/MAI.png",
-            "liquid_staked_address": "0x919c1c267bc06a7039e03fcc2ef738525769109c",
+            "liquid_staked_address": "",
+            "price_control": "0x919c1c267bc06a7039e03fcc2ef738525769109c",
             "tags": [
                 "stablecoin"
             ]
@@ -215,6 +217,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/SWKAVA.png",
             "liquid_staked_address": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
+            "price_control": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
             "tags": [
                 "volatilecoin"
             ]
@@ -227,7 +230,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/BNB.png",
             "liquid_staked_address": "",
-            "price_control": true,
+            "stable_route": true,
             "tags": [
                 "volatilecoin"
             ]
@@ -314,6 +317,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/acsVARA.png",
             "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
+            "price_control": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
             "tags": [
                 "volatilecoin"
             ]
@@ -350,7 +354,6 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/LION.png",
             "liquid_staked_address": "",
-            "preferred_pair": "0xc86c7c0efbd6a49b35e8714c5f59d99de09a225b",
             "tags": [
                 "volatilecoin",
                 "taxed"
@@ -392,7 +395,7 @@
             "address": "0xFa4384b298084A0ef13F378853DEDbB33A857B31",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/cpVARA.png",
-            "liquid_staked_address": "",
+            "liquid_staked_address": "0xE1da44C0dA55B075aE8E2e4b6986AdC76Ac77d73",
             "tags": [
                 "volatilecoin",
                 "taxed"
@@ -479,6 +482,7 @@
             "decimals": 6,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/axlUSDT.png",
             "liquid_staked_address": "",
+            "stable_route": true,
             "tags": [
                 "stablecoin"
             ]
@@ -611,6 +615,6 @@
     "version": {
         "major": 6,
         "minor": 0,
-        "patch": 2
+        "patch": 3
     }
 }
