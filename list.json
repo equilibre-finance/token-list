@@ -140,7 +140,7 @@
             "address": "0xb84Df10966a5D7e1ab46D9276F55d57bD336AFC7",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/MAI.png",
-            "liquid_staked_address": "",
+            "liquid_staked_address": "0x919c1c267bc06a7039e03fcc2ef738525769109c",
             "tags": [
                 "stablecoin"
             ]
@@ -611,6 +611,6 @@
     "version": {
         "major": 6,
         "minor": 0,
-        "patch": 1
+        "patch": 2
     }
 }
