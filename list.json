@@ -370,6 +370,7 @@
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/equilibre-finance/token-images/main/assets/TIGER.png",
             "liquid_staked_address": "",
+            "external_feed": true,
             "tags": [
                 "volatilecoin",
                 "taxed"
@@ -617,6 +618,6 @@
     "version": {
         "major": 6,
         "minor": 0,
-        "patch": 5
+        "patch": 6
     }
 }
